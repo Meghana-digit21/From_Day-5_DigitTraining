@@ -1,4 +1,4 @@
-package FileCombiner;
+package filecombiner;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -33,9 +33,9 @@ public class FileCombiner {
     }
 
     public static void main(String[] args) {
-        String file1Path = "src/filecombiner/file1.txt";
-        String file2Path = "src/filecombiner/file2.txt";
-        String outputPath = "src/filecombiner/combined_output.txt";
+        String file1Path = "src/filecombiner/File1";
+        String file2Path = "src/filecombiner/File2";
+        String outputPath = "src/filecombiner/CombinedOutput";
 
         combineFiles(file1Path, file2Path, outputPath);
     }
